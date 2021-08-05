@@ -55,6 +55,7 @@ def go_deps():
         sum = "h1:A8PeW59pxE9IoFRqBp37U+mSNaQoZ46F1f0f863XSXw=",
         version = "v1.0.0",
     )
+
     go_repository(
         name = "com_github_json_iterator_go",
         importpath = "github.com/json-iterator/go",
