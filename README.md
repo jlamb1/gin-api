@@ -1,7 +1,10 @@
 # How to run
 `bazel run //:gin-api` - and that's it! available on localhost:3000
 
+if you do not have bazel, simply run `./bazelisk-darwin build //...`
+
 ## Available Routes
+
 **/ping** - GET
  - returns `pong`
 
